@@ -23,9 +23,9 @@ function TodoForm (props) {
     return (
 
         <form className="todo-form" onSubmit={handleSubmit}> 
-        <input type="type"placeholder="Add to todo" value={input} name="text" className="todo-input" 
+        <input type="type"placeholder="What needs to be done" value={input} name="text" className="todo-input" 
         onChange={handleChange}/>
-        <button className="Todo-button">Add todo</button>
+        <button className="Todo-button">Add task</button>
         </form>
        
     )

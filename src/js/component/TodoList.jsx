@@ -33,11 +33,12 @@ function TodoList (){
 
     return (<div>
 
-        <h1>Procrastinating is not an option here!!</h1>
+        <h1>TODO APP</h1>
         <TodoForm onSubmit={addTodo}/>
         <Todo 
         todos ={todos}
         completeTodo={CompleteTodo}removeTodo={removeTodo}/>
+         
          </div>
         )
     }
